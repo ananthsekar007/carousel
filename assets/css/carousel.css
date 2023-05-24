@@ -1,1 +1,70 @@
-/* the css goes here */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .carousel-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #fff; */
+    font-size: 24px;
+  }
+  
+  .slide-content {
+    text-align: center;
+  }
+  
+
+  #prevBtn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  #nextBtn {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  
+  #nextBtn:hover {
+    background-color: #555;
+  }
+
+  #prevBtn:hover {
+    background-color: #555;
+  }
+  
