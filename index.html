@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- the body goes here -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="assets/css/carousel.css" />
+    <script src="assets/js/carousel.js"></script>
+  </head>
+  <body>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="slide" id="slide1">
+          <div class="slide-content">
+            <h2>Slide 1</h2>
+            <p>Text for slide 1</p>
+            <input type="color" id="color1" />
+          </div>
+        </div>
+        <div class="slide" id="slide2">
+          <div class="slide-content">
+            <h2>Slide 2</h2>
+            <p>Text for slide 2</p>
+            <input type="color" id="color2" />
+          </div>
+        </div>
+        <div class="slide" id="slide3">
+          <div class="slide-content">
+            <h2>Slide 3</h2>
+            <p>Text for slide 3</p>
+            <input type="color" id="color3" />
+          </div>
+        </div>
+      </div>
+          <button id="prevBtn">Previous</button>
+          <button id="nextBtn">Next</button>
+    </div>
+  </body>
 </html>
